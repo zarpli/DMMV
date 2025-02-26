@@ -1,6 +1,6 @@
 # DMM Viewer
 
-This script displays on screen the readings of the DMM (Digital Multimeter) that support SCPI (Standard Commands for Programmable Instruments). 
+This script displays on screen the readings of the DMM (Digital Multimeter) that support [SCPI](https://www.ivifoundation.org/About-IVI/scpi.html) (Standard Commands for Programmable Instruments). 
 
 The connection is via LAN port, you must know the IP address and port.
 
