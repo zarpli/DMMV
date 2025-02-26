@@ -17,6 +17,12 @@ To change the reading type simply press a key according to the following table
 |f|FREQUENCY|p|PERIOD|
 |t|TEMPERATURE 2-WIRE|T|TEMPERATURE 4-WIRE|
 
+## requirements
+
+[tkinter](https://docs.python.org/3/library/tkinter.html)<br>
+[prefixed](https://pypi.org/project/prefixed/)
+
+
 
 
 
