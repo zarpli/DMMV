@@ -58,7 +58,6 @@ def dmm_read():
 def dmm_func():
     dmm_cmd('func?')
     val_recv = dmm_read().decode()
-    print(val_recv)
 
     global DMM_UNIT
     match val_recv:
@@ -89,7 +88,7 @@ def dmm_func():
         case _:
             DMM_UNIT = "UNK"
 
-    print(f'unidad: {DMM_UNIT}')
+    print(f'current unit: {DMM_UNIT}')
     root.after(100, dmm_meas)
 
 def dmm_meas():
@@ -155,7 +154,6 @@ def key_press(event):
         print('sets the meter to: Temperature 4-wire')
         dmm_cmd('func "temp:frtd"')
         DMM_UNIT = "°C"
-
 
 root = tkinter.Tk()
 
