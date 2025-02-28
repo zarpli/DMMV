@@ -4,7 +4,9 @@ This script displays on screen the readings of the DMM (Digital Multimeter) that
 
 <p align="center"><img src=/images/DMMV.png></p>
 
-The connection is via LAN port, you must know the IP address and port.
+# Interface
+
+The connection is via **Ethernet Port**, you must know the IP address and port.
 
 # Panel Control
 
