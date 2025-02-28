@@ -21,10 +21,17 @@ To change the reading type simply press a key according to the following table
 |f|FREQUENCY|p|PERIOD|
 |t|TEMPERATURE 2-WIRE|T|TEMPERATURE 4-WIRE|
 
-## Requirements
+# Requirements
 
-[tkinter](https://docs.python.org/3/library/tkinter.html)<br>
+[tkinter](https://docs.python.org/3/library/tkinter.html)
+<br>
 [prefixed](https://pypi.org/project/prefixed/)
+
+# Related tools
+
+[Ts Digital Multi Meter Viewer](https://www.ts-software-jp.net/products/tsdmmview.html)
+<br>
+[mdFluke](https://www.dijkens.com/mdFluke/)
 
 
 
